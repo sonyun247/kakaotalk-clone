@@ -20,6 +20,7 @@
 .friend .friend__column {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .friend .friend__avatar {
   margin-right: 15px;
