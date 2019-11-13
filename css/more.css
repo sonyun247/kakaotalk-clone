@@ -17,8 +17,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 30px;
   cursor: pointer;
+  height: 50px;
+  width: 50px;
 }
 .more__btn-icon i {
   font-size: 28px;
@@ -41,6 +43,7 @@
   font-size: 14px;
   margin-top: 15px;
   opacity: 0.7;
+  text-align: center;
 }
 .suggestion .suggestion__icon {
   background-color: #fec30a;

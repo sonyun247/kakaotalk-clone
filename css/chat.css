@@ -9,9 +9,10 @@
   /* padding: 20px;
   padding-top: 80px;
   min-height: 1000vh; */
-  /* background-image: url("../images/chatBg.png"); */
-  background-color: white;
+  background-image: url("../images/chatBg.png");
+  /* background-color: white; */
 }
+
 .chat-screen .chat__messages {
   display: flex;
   flex-direction: column;
@@ -43,7 +44,7 @@
 }
 .chat__icon {
   font-size: 18px;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 .chat__write {
   width: 100%;
@@ -86,23 +87,13 @@
 .sent-message {
   align-self: flex-end;
 }
-@keyframes spin {
-  from {
-    opacity: 0.5;
-    transform: none;
-  }
-  to {
-    opacity: 1;
-    transform: rotateY(1.5turn);
-  }
-}
 .incoming-message img {
   width: 40px;
   border-radius: 50%;
   margin-right: 15px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  animation: spin 0.5s ease-in-out forwards 0.5s;
+  animation: spin 0.7s ease-in-out forwards 0.3s;
 }
 .message .message__bubble {
   background-color: white;
@@ -125,7 +116,7 @@
 }
 .sent-message .message__bubble {
   border-bottom-right-radius: 0;
-  background-image: linear-gradient(to left, #f9e001, #fec30a);
+  background-image: linear-gradient(to left, #0575e6, #021b79);
 }
 
 @keyframes incomingAni {

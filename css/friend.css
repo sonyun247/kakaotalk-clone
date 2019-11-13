@@ -2,16 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 .friend .friend__avatar {
   width: 50px;
+  height: 50px;
   border-radius: 35%;
 }
 .friend__avatar.g-avatar {
   width: 70px;
+  height: 70px;
 }
 .friend__avatar.m-avatar {
   width: 60px;
+  height: 60px;
 }
 .friend .friend__column {
   display: flex;
@@ -55,4 +59,20 @@
   background-color: #f5f5f5;
   padding: 10px 15px;
   border-radius: 5px;
+}
+.chat__detail {
+  flex-direction: column;
+}
+.chat__badge {
+  color: white;
+  background-color: #dc5d46;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
 }

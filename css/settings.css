@@ -8,6 +8,7 @@
 
 .settings .settings__sections {
   padding-top: 20px;
+  border-bottom: 1px solid #f7f7f7;
 }
 .settings__setting .settings__icon {
   font-size: 20px;
